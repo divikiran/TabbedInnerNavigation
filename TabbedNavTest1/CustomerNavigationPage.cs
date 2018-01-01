@@ -9,12 +9,4 @@ namespace TabbedNavTest1
         public CustomerNavigationPage() : base(new SecondPage()) { }
 
     }
-
-    //public partial class CustomerPage : ContentPage
-    //{
-    //    public CustomerPage()
-    //    {
-    //        InitializeComponent();
-    //    }
-    //}
 }
