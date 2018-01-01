@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="utf-8"?>
+<TabbedPage xmlns="http://xamarin.com/schemas/2014/forms" xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml" xmlns:local="clr-namespace:TabbedNavTest1" x:Class="TabbedNavTest1.TabbedNavTest1Page">
+    <local:CustomerNavigationPage Title="Navigation Title" BackgroundColor="#f0f0f0" />
+    <ContentPage Title="Wishlist">
+        <StackLayout>
+            <Label Text="Blue" HorizontalTextAlignment="Center" HorizontalOptions="FillAndExpand" Margin="5" />
+            <BoxView Color="Blue" VerticalOptions="FillAndExpand" />
+        </StackLayout>
+    </ContentPage>
+    <ContentPage Title="Cart">
+        <StackLayout>
+            <Label Text="Red" HorizontalTextAlignment="Center" HorizontalOptions="FillAndExpand" Margin="5" />
+            <BoxView Color="Red" VerticalOptions="FillAndExpand" />
+        </StackLayout>
+    </ContentPage>
+    <ContentPage Title="Account">
+        <StackLayout>
+            <Label Text="Yellow" HorizontalTextAlignment="Center" HorizontalOptions="FillAndExpand" Margin="5" />
+            <BoxView Color="Yellow" VerticalOptions="FillAndExpand" />
+        </StackLayout>
+    </ContentPage>
+</TabbedPage>
